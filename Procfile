@@ -1,1 +1,1 @@
-waitress-serve --listen=*:8041 app:wsgifunc
+web: waitress-server --port=$PORT website:app

@@ -7,7 +7,7 @@ serve(wsgiapp, listen='*:8080')
 
 app = Flask(__name__)
 #app.config.from_object(os.environ.get('FLASK_ENV'))
-
+# app.run(host='0.0.0.0', port=8080,debug=True)
 app.config['MAIL_SERVER']='smtp.mail.ru'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'ip_profit@mail.ru'
