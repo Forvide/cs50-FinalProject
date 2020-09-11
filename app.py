@@ -5,7 +5,7 @@ import os
 
 
 app = Flask(__name__)
-app.config.from_object(os.environ.get('FLASK_ENV'))
+#app.config.from_object(os.environ.get('FLASK_ENV'))
 
 app.config['MAIL_SERVER']='smtp.mail.ru'
 app.config['MAIL_PORT'] = 465
@@ -47,3 +47,7 @@ def contact():
 
     else:
         return render_template('contact.html')
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
