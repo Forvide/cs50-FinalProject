@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT profiles.wsgi:application
+waitress-serve --listen=*:8041 app:wsgifunc

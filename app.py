@@ -2,7 +2,8 @@ from flask import Flask, render_template, request, session
 from flask import url_for, jsonify, redirect
 from flask_mail import Mail, Message
 import os
-
+from waitress import serve
+serve(wsgiapp, listen='*:8080')
 
 app = Flask(__name__)
 #app.config.from_object(os.environ.get('FLASK_ENV'))
