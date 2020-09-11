@@ -1,0 +1,20 @@
+2020-09-11T04:12:04.159528+00:00 app[web.1]: bash: gunicorn: command not found
+2020-09-11T04:12:04.205746+00:00 heroku[web.1]: Process exited with status 127
+2020-09-11T04:12:04.266569+00:00 heroku[web.1]: State changed from starting to crashed
+2020-09-11T04:12:04.269270+00:00 heroku[web.1]: State changed from crashed to starting
+2020-09-11T04:12:05.000000+00:00 app[api]: Build succeeded
+2020-09-11T04:12:08.426975+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-09-11T04:12:10.269343+00:00 app[web.1]: bash: gunicorn: command not found
+2020-09-11T04:12:10.330202+00:00 heroku[web.1]: Process exited with status 127
+2020-09-11T04:12:10.376840+00:00 heroku[web.1]: State changed from starting to crashed
+2020-09-11T04:12:51.116900+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ip2020profit.herokuapp.com request_id=780c1a77-cb31-4c44-8bcd-67402b7cfca7 fwd="178.90.29.217" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-11T04:12:51.788415+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ip2020profit.herokuapp.com request_id=8044877c-4d6e-4f72-9a5f-b71a247d3d78 fwd="178.90.29.217" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-11T04:31:34.179841+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ip2020profit.herokuapp.com request_id=dbbb1fc5-a0ba-4d08-a587-a742ea969368 fwd="178.90.29.217" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-11T04:31:34.575719+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ip2020profit.herokuapp.com request_id=f20081eb-0f33-49ca-bf38-bb072ef00971 fwd="178.90.29.217" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-11T04:33:14.664539+00:00 heroku[web.1]: State changed from crashed to starting
+2020-09-11T04:33:18.625068+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2020-09-11T04:33:20.447994+00:00 app[web.1]: bash: gunicorn: command not found
+2020-09-11T04:33:20.497335+00:00 heroku[web.1]: Process exited with status 127
+2020-09-11T04:33:20.551190+00:00 heroku[web.1]: State changed from starting to crashed
+2020-09-11T04:34:33.031682+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ip2020profit.herokuapp.com request_id=4298abcf-d6d2-475d-848d-b1e8a2aa626f fwd="178.90.29.217" dyno= connect= service= status=503 bytes= protocol=https
+2020-09-11T04:34:33.286046+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ip2020profit.herokuapp.com request_id=cc1168af-be99-4404-ac31-28ea779dfaf8 fwd="178.90.29.217" dyno= connect= service= status=503 bytes= protocol=https
