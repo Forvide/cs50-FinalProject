@@ -1,3 +1,0 @@
-https://habr.com/ru/post/237517/
-https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true
-https://flask.palletsprojects.com/en/1.1.x/tutorial/deploy/#run-with-a-production-server
