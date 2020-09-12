@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, session
 from flask import url_for, jsonify, redirect
 from flask_mail import Mail, Message
-from waitress import serve
 
 app = Flask(__name__)
 
@@ -45,3 +44,6 @@ def contact():
 
     else:
         return render_template('contact.html')
+
+if __name__ == "__main__":
+    app.run()
