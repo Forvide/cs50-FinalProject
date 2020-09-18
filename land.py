@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, session
 from flask import url_for, jsonify, redirect
+from flask import send_from_directory
 from flask_mail import Mail, Message
 
 app = Flask(__name__)
@@ -44,6 +45,11 @@ def contact():
 
     else:
         return render_template('contact.html')
+
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory(app.static_folder, request.path[1:])
 
 if __name__ == "__main__":
     app.run()

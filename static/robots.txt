@@ -1,0 +1,4 @@
+# Hello Robots!
+User-agent: *
+
+Sitemap: http://www.profitbuh.kz/sitemap.xml
