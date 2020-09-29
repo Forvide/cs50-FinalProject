@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 app.config['MAIL_SERVER']='smtp.mail.ru'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'ip_profit@mail.ru'
-app.config['MAIL_PASSWORD'] = 'aizere2004'
+app.config['MAIL_USERNAME'] = 
+app.config['MAIL_PASSWORD'] = 
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 
@@ -32,9 +32,9 @@ def contact():
     if request.method == "POST":
         name = request.form.get('name')
         #change sender to mail that's used to send mails
-        sender = 'murat_a@mail.ru'
+        sender = 
         sender_email = request.form.get('email')
-        rec_email = 'murat_a@mail.ru'
+        rec_email = 
         message_title = 'Message from website by ' + sender_email
         msg = Message(message_title, 
                     sender = sender,
